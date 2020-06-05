@@ -54,7 +54,7 @@ remove-from-packages:
               /usr/lib/systemd/system/systemd-networkd.socket,
               /usr/lib/systemd/system/systemd-networkd-wait-online.service]
   - [systemd-container, /usr/lib/systemd/network/.*]
-  - [systemd-udev, /usr/lib/systemd/network/.*]
+  - [systemd-udev, /usr/lib/systemd/network/80-.*]
 
 
 remove-files:
