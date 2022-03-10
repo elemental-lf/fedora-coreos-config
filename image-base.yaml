@@ -31,3 +31,4 @@ bootfs_metadata_csum_seed: true
 # that on boot as well)
 
 
+ostree-format: "tar"
