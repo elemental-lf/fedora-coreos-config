@@ -5,3 +5,7 @@ variables:
 releasever: 39
 
 include: manifests/fedora-coreos.yaml
+
+# This will be added to the existing list.
+lockfile-repos:
+  - fedora-updates

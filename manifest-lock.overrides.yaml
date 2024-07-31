@@ -21,3 +21,9 @@ packages:
       bodhi: https://bodhi.fedoraproject.org/updates/FEDORA-2024-4afd3d38ae
       reason: https://github.com/coreos/fedora-coreos-tracker/issues/1705
       type: fast-track
+  openssh:
+    evr: 9.3p1-11.fc39
+  openssh-clients:
+    evr: 9.3p1-11.fc39
+  openssh-server:
+    evr: 9.3p1-11.fc39
