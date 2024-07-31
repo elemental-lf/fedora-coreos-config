@@ -1,6 +1,10 @@
 # This file is shared by all streams. For a stream-specific change, use
 # image.yaml instead.
 
+# Create XFS filesystem which runs with older kernel versions (e.g.  kernel
+# 5.10 doesn't support nrext64).
+rootfs-args: "-i nrext64=0 -m rmapbt=0"
+
 # Target disk size in GB.
 # Make it at least 10G because we want the rootfs to be at least 8G:
 # https://github.com/coreos/fedora-coreos-tracker/issues/586
